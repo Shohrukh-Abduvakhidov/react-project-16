@@ -71,14 +71,14 @@ export default function App() {
 								type='text'
 								value={addTitle}
 								onChange={e => setAddTitle(e.target.value)}
-								placeholder='Enter title'
+								placeholder='Title...'
 								className='p-2 w-full border rounded-md'
 							/>
 							<input
 								type='text'
 								value={addDescription}
 								onChange={e => setAddDescription(e.target.value)}
-								placeholder='Enter description'
+								placeholder='Description...'
 								className='p-2 border rounded-md'
 							/>
 						</div>
@@ -138,14 +138,14 @@ export default function App() {
 							type='text'
 							value={editTitle}
 							onChange={e => setEditTitle(e.target.value)}
-							placeholder='Edit title'
+							placeholder='Title...'
 							className='p-2 border rounded-md'
 						/>
 						<input
 							type='text'
 							value={editDescription}
 							onChange={e => setEditDescription(e.target.value)}
-							placeholder='Edit description'
+							placeholder='Description...'
 							className='p-2 border rounded-md'
 						/>
 					</div>
